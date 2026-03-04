@@ -8,11 +8,11 @@ The UI only needs to call:
     answer  = service.answer(question, uploaded_file)
 """
 
-from app.core.vector_store import VectorStoreManager
+from app.db.vector_store import VectorStoreManager
 from app.core.llm import LLMChain
 from app.utils.file_handler import FileHandler
 from app.utils.text_processor import TextProcessor
-from app.core.logger import logger
+from app.utils.logger import logger
 
 
 class QAService:

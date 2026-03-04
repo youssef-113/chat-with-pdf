@@ -80,7 +80,9 @@ class AppConfig:
     title: str = field(default_factory=lambda: os.getenv("APP_TITLE", "ChatPDF"))
     chunking: ChunkingConfig = field(default_factory=ChunkingConfig)
     vector_store: VectorStoreConfig = field(default_factory=VectorStoreConfig)
-    
+    log_level: str = field(default_factory=lambda: os.getenv("LOG_LEVEL", "INFO"))
+    icon: str = field(default_factory=lambda: os.getenv("APP_ICON", "📚"))
+
     def validate(self) -> None:
         self.llm.validate()
         self.embedding.validate()
