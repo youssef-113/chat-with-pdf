@@ -1,20 +1,17 @@
 <div align="center">
 
-# 📚 Chat with Docs
+# 📚 Chat with PDF
 
-**A production-grade RAG application that lets you have intelligent conversations with your documents.**
+**A production-grade RAG application that lets you have intelligent conversations with your PDF documents.**
 
 Upload a PDF, Word document, or plain text file — then ask anything about it.  
-Powered by **Groq LLM**, **LangChain**, and **FAISS** vector search.
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.2-1C3C3C?style=flat-square)](https://langchain.com/)
 [![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-F55036?style=flat-square)](https://console.groq.com/)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-![App Screenshot](docs/screenshot.png)
 
 </div>
 
