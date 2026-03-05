@@ -3,6 +3,10 @@ Production-quality Streamlit UI.
 Runs with: streamlit run app/ui/streamlit_app.py
 """
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
 import streamlit as st
 from app.config.config import settings
 from app.services.qa_service import QAService

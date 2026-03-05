@@ -5,8 +5,8 @@ Keeps chunking logic isolated so it can be swapped easily.
 """
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from app.core.config import settings
-from app.core.logger import logger
+from app.config.config import settings
+from app.utils.logger import logger
 
 
 class TextProcessor:
