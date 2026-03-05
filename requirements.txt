@@ -1,3 +1,6 @@
+# Force CPU-only PyTorch
+torch==2.2.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 # Core
 streamlit==1.35.0
 python-dotenv==1.0.1
