@@ -1,4 +1,4 @@
-from app.config.config import setting
+from app.config.config import settings
 from app.utils.logger import logger
 from app.core.exceptions import (
     DocChatBaseError,
