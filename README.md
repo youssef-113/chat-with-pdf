@@ -345,3 +345,8 @@ This project is licensed under the **Youssef bassiony**
 
 ---
 
+## the app exsit here 
+
+[![chat with pdf](https://img.shields.io/badge/Streamlit-1.35-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://chat-with-pdf-y.streamlit.app/)
+
+
