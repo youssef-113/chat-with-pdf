@@ -16,3 +16,6 @@ logs/
 .idea/
 .vscode/
 *.swp
+.windsurf/
+.devcontainer/
+
